@@ -1,0 +1,9 @@
+node_modules
+coverage
+artifacts
+cache
+types
+dist
+fhevmTemp
+deployments
+
