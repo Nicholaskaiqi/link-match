@@ -26,7 +26,7 @@ contract LinkMatch is ZamaEthereumConfig {
 
     // Events
     event GameResultSubmitted(address indexed player, uint256 timestamp);
-    event LeaderboardUpdated();
+    event LeaderboardUpdated(); // Emitted when leaderboard data changes
 
     /// @notice Submit encrypted game result (score = matches / timeSeconds)
     /// @param encryptedScore Encrypted average matches per second (score)
