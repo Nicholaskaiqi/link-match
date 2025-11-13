@@ -1,6 +1,6 @@
 {
   "name": "linkmatch-backend",
-  "description": "Hardhat-based backend for LinkMatch FHEVM game",
+  "description": "Hardhat-based backend for LinkMatch FHEVM game with encrypted score processing",
   "version": "0.1.0",
   "engines": {
     "node": ">=20",

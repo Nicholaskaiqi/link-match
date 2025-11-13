@@ -12,6 +12,7 @@ import "solidity-coverage";
 // Run 'npx hardhat vars setup' to see the list of variables that need to be set
 // Support environment variables via $env: (PowerShell) or process.env (Node.js)
 // Priority: environment variable > hardhat vars > default value
+// Configuration for FHEVM development environment
 
 const MNEMONIC: string = process.env.MNEMONIC || vars.get("MNEMONIC", "test test test test test test test test test test test junk");
 const INFURA_API_KEY: string = vars.get("INFURA_API_KEY", "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz");
