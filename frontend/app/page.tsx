@@ -8,6 +8,7 @@ import { LinkMatchGame } from "@/components/LinkMatchGame";
 import { useState, useEffect, useRef } from "react";
 
 // Contract address - should be set after deployment
+// This address is used to interact with the LinkMatch smart contract
 const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || "";
 
 export default function Home() {
