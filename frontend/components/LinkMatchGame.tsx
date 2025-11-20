@@ -17,7 +17,7 @@ interface LinkMatchGameProps {
   disabled?: boolean;
 }
 
-// Difficulty configuration
+// Difficulty configuration for game grid sizes
 const DIFFICULTY_CONFIG: Record<Difficulty, { rows: number; cols: number; label: string }> = {
   easy: { rows: 4, cols: 4, label: "Easy" },
   medium: { rows: 6, cols: 6, label: "Medium" },
