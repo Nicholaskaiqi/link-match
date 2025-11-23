@@ -30,6 +30,7 @@
     "encrypted-types": "^0.0.4",
     "@fhevm/solidity": "^0.9.1"
   },
+  // FHEVM dependencies updated to latest stable versions
   "devDependencies": {
     "@fhevm/hardhat-plugin": "^0.3.0-1",
     "@nomicfoundation/hardhat-chai-matchers": "^2.1.0",
